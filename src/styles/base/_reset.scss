@@ -63,3 +63,16 @@ a {
 input[type=text], textarea {
   -webkit-appearance: none;
 }
+
+html {
+  font-size: 65.5%;
+}
+
+body {
+  max-width: 160rem;
+  margin: 0 auto;
+}
+
+.clear {
+  clear: both;
+}
