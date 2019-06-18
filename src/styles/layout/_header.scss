@@ -75,6 +75,44 @@ header {
                 top: 0;
                 left: 50%;
                 transform: translate(-50%, 0);
+                .text-banner-top {
+                    text-align: center;
+                    margin-top: 14.2rem;
+                    p {
+                        font-size: 2rem;
+                        color: #7ab7ff;
+                        margin-bottom: 2.3rem;
+                    }
+                    h2 {
+                        font-size: 4rem;
+                        color: #f1f2f6;
+                        margin-bottom: 4rem;
+                    }
+                    button {
+                        width: 14.3rem;
+                        height: 3.8rem;
+                        color: #f1f2f6;
+                        font-size: 1.6rem;
+                        background-color: #7ab7ff;
+                        border: none;
+                        border-radius: 21px;
+                        margin: 0 0.85rem;
+                        &:hover {
+                            background-color: #0c7ad8;
+                        }
+                    }
+                }
+                .text-banner-bottom {
+                    text-align: center;
+                    h2 {
+                        font-size: 3rem;
+                        color: #f1f2f6;
+                    }
+                    p {
+                        color: #f1f2f6;
+                        font-size: 2rem;
+                    }
+                }
             }
         }
     }
